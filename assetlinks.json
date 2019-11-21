@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.timerexercise2",
+    "sha256_cert_fingerprints":
+    ["C9:CA:D8:78:57:8F:AE:57:1D:F4:7E:86:A1:33:CC:5D:79:84:E0:15:9B:0A:59:BC:AF:8F:E6:5C:27:30:E7:4B"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://qrscannertesting.com"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.timerexercise2",
+    "sha256_cert_fingerprints":
+    ["C9:CA:D8:78:57:8F:AE:57:1D:F4:7E:86:A1:33:CC:5D:79:84:E0:15:9B:0A:59:BC:AF:8F:E6:5C:27:30:E7:4B"]
+  }
+}]
